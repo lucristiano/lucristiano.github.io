@@ -240,7 +240,7 @@ h3 {
     position: absolute;
     text-align: left;
     top: 50%;
-    width: 500px;
+    max-width: 500px;
     z-index: 1;
 }
 
@@ -733,6 +733,7 @@ transition: opacity 2s;
       top: 0;
       width: 100%;
   }
+
 
 
 

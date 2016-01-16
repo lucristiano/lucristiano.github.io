@@ -722,6 +722,10 @@ transition: opacity 2s;
     margin-right: 30px;
   }
 
+  .icon-cancel {
+    margin-right: 30px;
+  }
+
   /* Home */
 
   .full-header {
@@ -777,6 +781,30 @@ transition: opacity 2s;
   }
 
 
+/* WORK */
+  .work.rosario {
+      background-image: url("../images/work/rosario-341/rosario-341-open.jpg");
+      background-position: 25% center;
+  }
 
+  .work {
+    height: 20em;
+  }
+
+  .work-overlay {
+    height: 20em;
+  }
+
+  .work.rosario .work-copy {
+    margin-top: -30px;
+  }
+
+  .work.idst .work-copy {
+    margin-top: -30px;
+  }
+
+  .work.ophelia .work-copy {
+    margin-top: -30px;
+  }
 
 }

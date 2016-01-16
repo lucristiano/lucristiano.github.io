@@ -703,7 +703,9 @@ transition: opacity 2s;
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 950px) {
+
+  /* Geral */
   img {
     max-width: 100%;
   }
@@ -711,6 +713,8 @@ transition: opacity 2s;
   body {
     font-size: 100%;
   }
+
+  /* Home */
 
   .full-header {
     display: none;
@@ -723,7 +727,7 @@ transition: opacity 2s;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 1;
 }
 
   .mobile-header .container {
@@ -732,6 +736,36 @@ transition: opacity 2s;
       position: absolute;
       top: 0;
       width: 100%;
+  }
+
+  /* About */
+
+  .about-container {
+    flex-flow: wrap;
+    height: 100%;
+    padding-bottom: 60px;
+  }
+
+  .about-image {
+    height: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-container .txt-container {
+    max-width: 440px;
+    padding: 0;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .about-container .about-title {
+    left: 0;
+  }
+
+  .about-container .txt-container a {
+    float: none;
   }
 
 

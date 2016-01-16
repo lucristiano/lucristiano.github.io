@@ -359,7 +359,7 @@ h3 {
 .work.ophelia .work-copy {
   top: 50%;
   left: 50%;
-  margin-left: -110px;
+  margin-left: -162px;
   margin-top: -15px;
 }
 
@@ -698,4 +698,42 @@ transition: opacity 2s;
 .resume-info-container p {
     margin: 0.3em;
     padding-left: 2em;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 768px) {
+  img {
+    max-width: 100%;
+  }
+
+  body {
+    font-size: 100%;
+  }
+
+  .full-header {
+    display: none;
+  }
+
+  .mobile-header {
+    background-color: #fff;
+    display: block;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+  .mobile-header .container {
+      background-color: #fff;
+      height: 60px;
+      position: absolute;
+      top: 0;
+      width: 100%;
+  }
+
+
+
 }

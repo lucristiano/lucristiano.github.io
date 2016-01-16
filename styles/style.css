@@ -742,7 +742,7 @@ transition: opacity 2s;
 
   .about-container {
     flex-flow: wrap;
-    height: 100%;
+    height: auto;
     padding-bottom: 60px;
   }
 

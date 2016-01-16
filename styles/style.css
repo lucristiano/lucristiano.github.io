@@ -714,6 +714,14 @@ transition: opacity 2s;
     font-size: 100%;
   }
 
+  .logo {
+    margin-left: 0;
+  }
+
+  .icon-menu {
+    margin-right: 30px;
+  }
+
   /* Home */
 
   .full-header {

@@ -768,8 +768,7 @@ transition: opacity 2s;
     max-width: 440px;
     padding: 0;
     text-align: center;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 0 20px;
   }
 
   .about-container .about-title {

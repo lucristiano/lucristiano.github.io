@@ -53,6 +53,7 @@ h3 {
 .center {
     margin: 0 auto;
     max-width: 1040px;
+    padding: 0 60px;
 }
 
 /* Transitions */
@@ -726,6 +727,10 @@ transition: opacity 2s;
     margin-right: 30px;
   }
 
+  .center {
+    padding: 0;
+  }
+
   /* Home */
 
   .full-header {
@@ -780,7 +785,11 @@ transition: opacity 2s;
   }
 
 
-/* WORK */
+    /* WORK */
+
+
+
+
   .work.rosario {
       background-image: url("../images/work/rosario-341/rosario-341-open.jpg");
       background-position: 25% center;
@@ -855,8 +864,8 @@ transition: opacity 2s;
   .footer {
     padding-bottom: 60px;
   }
-
 }
+
 
 @media only screen and (max-width: 440px) {
   .footer .links-container {
@@ -866,4 +875,125 @@ transition: opacity 2s;
   .links-container div {
     margin: 20px 0;
   }
+}
+
+
+
+/* Work 2 */
+
+.row:first-child {
+  padding-top: 120px;
+}
+
+.row.project-small {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.row.project-small.last {
+  padding-bottom: 120px;
+}
+
+.col-2 {
+    max-width: 440px;
+    width: 100%;
+    margin: 30px auto 0 auto;
+}
+
+.thumb-large {
+    height: 400px;
+    max-width: 1040px;
+    background-position: center center;
+    background-blend-mode: multiply;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.thumb-small {
+  height: 400px;
+  max-width: 500px;
+  background-position: center center;
+  background-blend-mode: multiply;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.thumb-small.idst {
+  background-image: url('../images/work/idst/idst-thumb.jpg');
+}
+
+.thumb-small.ophelia {
+  background-image: url('../images/work/ophelia/ophelia-thumb.jpg');
+}
+
+.thumb-large.rosario341 {
+  background-image: url('../images/work/rosario-341/rosario-341-thumb-large.jpg');
+}
+
+.thumb-copy {
+    top: 70%;
+    color: #fff;
+    padding-left: 30px;
+    max-width: 100%;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.thumb-large:hover .thumb-copy {
+  top: 75%;
+  opacity: 1;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.thumb-small:hover .thumb-copy {
+  top: 75%;
+  opacity: 1;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+
+.thumb-copy h2 {
+  font-size: 2.3em;
+}
+
+.thumb-copy .subtitles {
+  letter-spacing: 3px;
+}
+
+.thumb-large:hover {
+  background-color: #3e19fc;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.thumb-small:hover {
+  background-color: #3e19fc;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }

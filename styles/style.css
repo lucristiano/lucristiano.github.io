@@ -369,6 +369,18 @@ h3 {
     background-position: center center;
 }
 
+.work.acad .work-copy {
+  top: 50%;
+  left: 50%;
+  margin-left: -162px;
+  margin-top: -15px;
+}
+
+.work.acad {
+    background-image: url("../images/work/acad/acad-open.jpg");
+    background-position: center center;
+}
+
 
 /* Rosario 341 */
 .hero-container {
@@ -403,6 +415,15 @@ h3 {
   position: absolute;
   width: 100%;
   background-image: url("../images/work/ophelia/ophelia-hero.jpg");
+  opacity: 0.6;
+  background-position: center center;
+}
+
+.hero-image-acad {
+  height: 500px;
+  position: absolute;
+  width: 100%;
+  background-image: url("../images/work/acad/acad-hero.jpg");
   opacity: 0.6;
   background-position: center center;
 }
@@ -815,6 +836,10 @@ transition: opacity 2s;
     margin-top: -30px;
   }
 
+  .work.acad .work-copy {
+    margin-top: -30px;
+  }
+
 /* WORK PROJECTS */
 
   .hero-image-rosario341 {
@@ -829,6 +854,11 @@ transition: opacity 2s;
 
   .hero-image-ophelia {
     background-position: 95% center;
+    height: 20em;
+  }
+
+  .hero-image-acad {
+    background-position: center center;
     height: 20em;
   }
 
@@ -931,6 +961,14 @@ transition: opacity 2s;
 
 .thumb-small.ophelia {
   background-image: url('../images/work/ophelia/ophelia-thumb.jpg');
+}
+
+.thumb-small.acad {
+  background-image: url('../images/work/acad/acad-thumb.jpg');
+}
+
+.thumb-small.rosario341 {
+  background-image: url('../images/work/rosario-341/rosario-thumb.jpg');
 }
 
 .thumb-large.rosario341 {

@@ -576,7 +576,6 @@ transition: opacity 2s;
     justify-content: center;
     position: absolute;
     width: 100%;
-    font-weight: bold;
 }
 
 .about-container .txt-container {
@@ -594,7 +593,7 @@ transition: opacity 2s;
 }
 
 .about-container .info {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 .about-container p {

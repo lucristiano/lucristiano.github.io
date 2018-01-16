@@ -392,6 +392,15 @@ h3 {
     display: flex;
 }
 
+.hero-image-ecommercebrasil {
+  height: 500px;
+  position: absolute;
+  width: 100%;
+  background-image: url("../images/work/ecommercebrasil/ecommercebrasil-hero.jpg");
+  opacity: 0.5;
+  background-position: center center;
+}
+
 .hero-image-rosario341 {
   height: 500px;
   position: absolute;
@@ -774,6 +783,10 @@ transition: opacity 2s;
   background-image: url('../images/work/idst/idst-thumb.jpg');
 }
 
+.thumb-small.ecommercebrasil {
+  background-image: url('../images/work/ecommercebrasil/ecommercebrasil-thumb.jpg');
+}
+
 .thumb-small.ophelia {
   background-image: url('../images/work/ophelia/ophelia-thumb.jpg');
 }
@@ -826,11 +839,13 @@ transition: opacity 2s;
 
 
 .thumb-copy h2 {
-  font-size: 2.3em;
+    font-size: 25px;
 }
 
 .thumb-copy .subtitles {
-  letter-spacing: 3px;
+    letter-spacing: 7px;
+    font-size: 14px;
+    font-weight: lighter;
 }
 
 .thumb-large:hover {
@@ -937,7 +952,7 @@ transition: opacity 2s;
 
     /* WORK */
 
-
+  
 
 
   .work.rosario {
@@ -973,6 +988,11 @@ transition: opacity 2s;
 
   .hero-image-rosario341 {
       background-position: center 3%;
+      height: 20em;
+  }
+
+    .hero-image-ecommercebrasil {
+      background-position: center center;
       height: 20em;
   }
 

@@ -1,55 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>_lucrs</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="/omg/assets/img/favicon.ico">
-	<link href="https://fonts.googleapis.com/css?family=Merriweather:300|Montserrat" rel="stylesheet">
-	<link rel="stylesheet" href="/omg/assets/css/main.css">
-</head>
-
-<body class="home">
+---
+title: _lucrs
+bodyclass: home
+---
 
 
-<div class="header reveal">
-	<div class="logo">
-		<a href="/omg/">
-			_lucrs
-		</a>
-	</div>
-	<div class="main-nav">
-		<ul class="menu-items">
-			<li><a href="">About</a></li>
-			<li><a href="">Work</a></li>
-			<li><a href="">Contact</a></li>
-		</ul>
-		<div class="menu-ico" id="menu">
-			<?xml version="1.0" encoding="UTF-8"?>
-<svg width="20px" height="14px" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>menu</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <path d="M3,13 C2.44771525,13 2,12.5522847 2,12 C2,11.4477153 2.44771525,11 3,11 L21,11 C21.5522847,11 22,11.4477153 22,12 C22,12.5522847 21.5522847,13 21,13 L3,13 Z M3,7 C2.44771525,7 2,6.55228475 2,6 C2,5.44771525 2.44771525,5 3,5 L21,5 C21.5522847,5 22,5.44771525 22,6 C22,6.55228475 21.5522847,7 21,7 L3,7 Z M3,19 C2.44771525,19 2,18.5522847 2,18 C2,17.4477153 2.44771525,17 3,17 L21,17 C21.5522847,17 22,17.4477153 22,18 C22,18.5522847 21.5522847,19 21,19 L3,19 Z" id="path-1"></path>
-    </defs>
-    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1331.000000, -106.000000)">
-        <g id="menu" transform="translate(1329.000000, 101.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
-            <g id="svg-black" mask="url(#mask-2)" fill="#000000" fill-rule="evenodd">
-                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
-            </g>
-        </g>
-    </g>
-</svg>
+{% include head.html %}
 
-		</div>
-	</div>
-</div>
-
+{% include header.html %}
 	
 	<section class="white-bg">
 		<div class="content intro reveal">
@@ -64,17 +21,9 @@
 		<div class="content reveal">
 			<h3>Featured Gigs</h3>
 			<ul class="project-list">
-				
-					<li><a href="/omg/projects/bestshots/" class="project-link active-item">Best Shots</a></li>
-				
-					<li><a href="/omg/projects/ecommercebrasil/" class="project-link active-item">E-Commerce Brasil</a></li>
-				
-					<li><a href="/omg/projects/ecommercecatalog/" class="project-link active-item">E-Commerce Catalog</a></li>
-				
-					<li><a href="/omg/projects/forum/" class="project-link active-item">Forum '17</a></li>
-				
-					<li><a href="/omg/projects/rosario/" class="project-link active-item">Rosario</a></li>
-				
+				{% for projects in site.projects %}
+					<li><a href="{{ projects.url }}" class="project-link active-item">{{ projects.title }}</a></li>
+				{% endfor %}
 			</ul>
 		</div>
 	</section>
@@ -93,15 +42,4 @@
 		</div>
 	</section>
 
-	
-	
-	<section class="footer">
-		<p>this handsome website was crafted & coded with <strong class="love">❤</strong> by me </p><div class="tools">Actually, I used Jekyll, SASS & Github Pages. And love.</div>
-	</section>
-
-	<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-  	<script src="/omg/assets/js/functions.js" type="text/javascript"></script>
-</body>
-</html>
-
+{% include footer.html %}

@@ -1,0 +1,38 @@
+{% include head.html %}
+
+{% include header.html %}
+
+
+
+<section class="project-info accent-bg">
+	<div class="container reveal">
+		<h2>
+			{{ page.title }}
+		</h2>
+		<h3>
+			{{ page.job }}
+		</h3>
+	</div>
+	<div class="main-img">
+		<img class="reveal" src="/assets/img/projects/{{ page.slug }}-thumb.png">
+	</div>
+</section>
+
+
+<section class="project-description after-accent">
+	<div class="container reveal">
+		<h3>
+			But what is it?
+		</h3>
+		{{ page.intro }}
+	</div>
+</section>	
+
+<section class="project-images">
+	<div class="container">
+		{{ content | remove: '<p>' | remove: '</p>' }}
+	</div>
+</section>	
+
+
+{% include footer.html %}

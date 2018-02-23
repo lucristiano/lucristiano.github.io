@@ -332,3 +332,5 @@ p strong {
       justify-content: center;
       align-items: center;
       margin: 0 auto; } }
+.project-list li:nth-child(5) {
+  display: none; }

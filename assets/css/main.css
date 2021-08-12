@@ -235,6 +235,11 @@ section .main-img {
     width: 100%;
     height: auto; }
 
+section.project-description .no-margin {
+  margin: 0 auto;
+  padding-top: 0;
+}
+
 section.project-description {
   width: 100%;
   max-width: 700px;

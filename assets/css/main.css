@@ -101,10 +101,8 @@ section {
     color: #4A4A4A; }
   section h3 {
     font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
     font-weight: normal;
-    letter-spacing: 3px;
-    font-size: 12px;
+    font-size: 17px;
     margin-bottom: 40px; }
   section.white-bg h3 {
     color: #0021FF; }
@@ -244,8 +242,6 @@ section.project-description {
   width: 100%;
   max-width: 700px;
   margin: 100px auto 0; }
-  section.project-description h3 {
-    text-align: center; }
   section.project-description p {
     margin: 0;
     margin-bottom: 20px;
@@ -291,10 +287,6 @@ p strong {
   .project-description.no-margin{
     margin: 0 auto;
     padding-top: 0;
-  }
-
-  .project-description.no-margin h3 {
-    text-align: left;
   }
 
 /* Media Queries */

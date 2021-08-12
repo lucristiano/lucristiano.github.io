@@ -288,9 +288,13 @@ p strong {
   font-weight: normal;
   color: #000; }
 
-  .project-description .no-margin{
+  .project-description.no-margin{
     margin: 0 auto;
     padding-top: 0;
+  }
+
+  .project-description.no-margin h3 {
+    text-align: left;
   }
 
 /* Media Queries */

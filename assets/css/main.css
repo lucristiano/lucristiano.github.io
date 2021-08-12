@@ -288,6 +288,11 @@ p strong {
   font-weight: normal;
   color: #000; }
 
+  .project-description .no-margin{
+    margin: 0 auto;
+    padding-top: 0;
+  }
+
 /* Media Queries */
 @media screen and (max-width: 770px) {
   .header ul.menu-items li:last-child {
@@ -326,6 +331,7 @@ p strong {
 
   section.project-description p {
     padding: 0 50px; }
+    
 
   section.project-info .container {
     padding: 0 50px; }

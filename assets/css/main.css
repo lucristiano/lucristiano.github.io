@@ -289,6 +289,12 @@ p strong {
     padding-top: 0;
   }
 
+  .project-images video {
+    display: block;
+    margin: 40px auto;
+    max-height: 90vh;
+}
+
 /* Media Queries */
 @media screen and (max-width: 770px) {
   .header ul.menu-items li:last-child {
